@@ -1,0 +1,273 @@
+{
+  "kit": "Conversa em Casa",
+  "fecho": "Passo a passo, eu consigo.",
+  "estilo": "soft 3D animated film style, warm cozy Brazilian home or school setting, neutral daylight, natural colors, gentle shading, no text, no letters, no words",
+  "personagens": {
+    "leo": {
+      "ancora": "img/ancora-leo.png",
+      "desc": "Leo, a Brazilian boy, 7, light brown skin, short curly dark brown hair, teal t-shirt, navy shorts"
+    },
+    "bia": {
+      "ancora": "img/ancora-bia.png",
+      "desc": "Bia, a Brazilian girl, 7, dark brown skin, black curly hair in two puffs with a yellow headband, purple t-shirt, denim skirt"
+    },
+    "mae": {
+      "ancora": "img/ancora-mae.png",
+      "desc": "the mother, about 35, warm tan skin, wavy shoulder-length brown hair, light green blouse"
+    },
+    "prof": {
+      "ancora": "img/ancora-prof.png",
+      "desc": "the teacher, about 40, glasses, short black hair, blue cardigan, lanyard badge"
+    }
+  },
+  "paginas": [
+    {
+      "id": "009",
+      "volume": 1,
+      "capitulo": "Cap. 2 — Quando a emoção cresce",
+      "titulo": "Quando estou com raiva",
+      "idade": "3 a 7 anos",
+      "quadros": [
+        {
+          "passo": "Percebo",
+          "texto": "Meu irmão derrubou minha torre. Meu rosto esquenta e a mão fecha. Isso é raiva.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Living room rug seen from above at an angle: a pile of colorful wooden blocks lying flat and scattered on the rug after falling, nothing is stacked, no tower. Leo kneeling beside the messy pile, frowning with clenched fists. His toddler little brother in a yellow onesie sits next to the pile with one hand still touching a fallen block, looking surprised. Exactly one Leo and one toddler"
+        },
+        {
+          "passo": "Paro",
+          "texto": "Antes de gritar, eu paro e respiro devagar, como quem enche um balão.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Leo sitting on the rug with eyes closed taking a slow deep breath, cheeks puffed, hands on his belly, calm living room, three-quarter view"
+        },
+        {
+          "passo": "Penso",
+          "texto": "Posso empurrar meu irmão... ou posso dizer o que estou sentindo.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Living room scene: Leo sitting on the rug among scattered wooden blocks, finger on chin, looking up thoughtfully, toddler brother in yellow onesie playing in background, a small thought bubble above Leo with a simple drawing of a red crossed-out pushing hand and a heart Single view of each character inside a full detailed scene, not a character sheet, not a turnaround, not white background."
+        },
+        {
+          "passo": "Faço",
+          "texto": "Eu digo: \"Fiquei bravo. Eu gostava muito daquela torre.\"",
+          "p": [
+            "leo"
+          ],
+          "cena": "Leo talking calmly to his toddler little brother in a yellow onesie, both sitting on the rug at eye level, Leo gesturing gently, scattered wooden blocks"
+        },
+        {
+          "passo": "Peço ajuda",
+          "texto": "Se a raiva não passa, eu chamo a mamãe. Ela me ajuda a ficar calmo.",
+          "p": [
+            "leo",
+            "mae"
+          ],
+          "cena": "the mother kneeling and hugging Leo warmly on the living room rug, Leo resting his head on her shoulder, side view"
+        },
+        {
+          "passo": "Consegui",
+          "texto": "Montamos uma torre nova, juntos. A raiva passou.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Leo smiling and building a new tall tower of colorful wooden blocks together with his toddler little brother in a yellow onesie, happy living room, three-quarter view"
+        }
+      ],
+      "ideia": "Sentir raiva pode. Machucar alguém, não.",
+      "conversa": [
+        "O que deixa você com raiva?",
+        "O que ajuda você a se acalmar?"
+      ]
+    },
+    {
+      "id": "033",
+      "volume": 1,
+      "capitulo": "Cap. 5 — Deu errado aqui em casa",
+      "titulo": "Quando meu brinquedo favorito quebra",
+      "idade": "3 a 7 anos",
+      "quadros": [
+        {
+          "passo": "Percebo",
+          "texto": "Meu cavalinho caiu e a perna quebrou. Fico triste e com vontade de chorar.",
+          "p": [
+            "bia"
+          ],
+          "cena": "Bedroom: Bia standing and looking down sadly at her small wooden toy horse lying on its side on the floor, with one of its legs broken off and lying separately next to it. Bia's whole body and head inside the frame, centered, three-quarter view"
+        },
+        {
+          "passo": "Paro",
+          "texto": "Eu paro e respiro. Chorar um pouquinho também pode.",
+          "p": [
+            "bia"
+          ],
+          "cena": "Bia sitting on her bed holding the broken wooden toy horse, eyes closed, taking a slow breath, one small tear, soft bedroom light"
+        },
+        {
+          "passo": "Penso",
+          "texto": "Será que tem conserto? Ou eu guardo de lembrança?",
+          "p": [
+            "bia"
+          ],
+          "cena": "Bia sitting on the floor looking carefully at the wooden toy horse and its broken leg in her hands, curious thinking face, side view"
+        },
+        {
+          "passo": "Faço",
+          "texto": "Guardo o cavalinho e a perninha numa caixinha, com cuidado, para não perder.",
+          "p": [
+            "bia"
+          ],
+          "cena": "Bia carefully placing the wooden toy horse and its broken leg into a small cardboard box on a table, three-quarter view"
+        },
+        {
+          "passo": "Peço ajuda",
+          "texto": "\"Mãe, você me ajuda a colar?\"",
+          "p": [
+            "bia",
+            "mae"
+          ],
+          "cena": "the mother and Bia sitting at a kitchen table gluing the leg back onto the small wooden toy horse together, mother holding the glue, Bia holding the horse"
+        },
+        {
+          "passo": "Consegui",
+          "texto": "Ficou uma marquinha. Ele continua sendo o meu cavalinho favorito.",
+          "p": [
+            "bia"
+          ],
+          "cena": "Bia smiling and hugging the repaired small wooden toy horse with a tiny visible glue line on its leg, cozy bedroom, three-quarter view"
+        }
+      ],
+      "ideia": "Coisas quebram. Com calma, muitas têm conserto.",
+      "conversa": [
+        "Lembra de algo que quebrou e teve conserto?",
+        "E quando não tem conserto, o que a gente pode fazer?"
+      ]
+    },
+    {
+      "id": "021",
+      "volume": 1,
+      "capitulo": "Cap. 3 — Volto para a calma",
+      "titulo": "Problema pequeno ou problema grande?",
+      "idade": "5 a 10 anos",
+      "quadros": [
+        {
+          "passo": "Percebo",
+          "texto": "A ponta do meu lápis quebrou bem na hora do desenho! Parece um problemão.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Leo at a school desk in a classroom looking upset at a pencil with a broken tip over a drawing paper, three-quarter view"
+        },
+        {
+          "passo": "Paro",
+          "texto": "Eu paro e respiro. Depois eu olho de novo para o problema.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Leo sitting at his school desk with eyes closed breathing slowly, hands resting on the desk, calm classroom"
+        },
+        {
+          "passo": "Penso",
+          "texto": "Ele é pequeno, médio ou grande? Pequeno: eu resolvo. Médio: tento, e se não der peço ajuda. Grande: chamo um adulto.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Leo looking at a simple wall poster with three colored circles in a row, small green, medium yellow, big red, no text, classroom, side view"
+        },
+        {
+          "passo": "Faço",
+          "texto": "Lápis quebrado é problema pequeno. Pego o apontador e pronto.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Leo smiling while sharpening his pencil with a small sharpener at his school desk, three-quarter view"
+        },
+        {
+          "passo": "Peço ajuda",
+          "texto": "Mas quando um colega cai e se machuca, é grande: chamo a professora na hora.",
+          "p": [
+            "leo"
+          ],
+          "cena": "School courtyard scene: a blond boy in an orange t-shirt sitting on the ground holding his scraped knee and crying, Leo standing next to him waving and calling for help, in the background the teacher with glasses and blue cardigan walking quickly toward them Single view of each character inside a full detailed scene, not a character sheet, not a turnaround, not white background. The teacher: a woman about 40 with glasses, short black hair, blue cardigan and lanyard badge."
+        },
+        {
+          "passo": "Consegui",
+          "texto": "Agora eu sei: o tamanho da minha reação combina com o tamanho do problema.",
+          "p": [
+            "leo"
+          ],
+          "cena": "Classroom scene: Leo sitting at his school desk smiling proudly and holding up his finished colorful drawing of mountains, other desks and a chalkboard behind him, three-quarter view Single view of each character inside a full detailed scene, not a character sheet, not a turnaround, not white background."
+        }
+      ],
+      "ideia": "Problema pequeno, reação pequena. Problema grande, adulto junto.",
+      "conversa": [
+        "Me dê um exemplo de problema pequeno e um de problema grande.",
+        "Quem você chama quando o problema é grande?"
+      ]
+    },
+    {
+      "id": "097",
+      "volume": 2,
+      "capitulo": "Cap. 5 — Força, ameaça e medo",
+      "titulo": "Quando alguém atrás de mim não para de me incomodar",
+      "idade": "7 a 12 anos",
+      "cena_texto": "Na aula, o Davi chuta a cadeira do Leo por trás. Uma vez, duas, dez. O Leo já não consegue prestar atenção.",
+      "img_cena": {
+        "p": [
+          "leo"
+        ],
+        "cena": "Classroom scene seen from the side: Leo sitting at his school desk looking annoyed, turning his head back, while the boy with straight black hair and red t-shirt sitting at the desk directly behind him stretches his leg and kicks the back of Leo's chair with his sneaker, motion lines at the chair Single view of each character inside a full detailed scene, not a character sheet, not a turnaround, not white background."
+      },
+      "entenda": "Pode ser distração, brincadeira ou provocação. De qualquer jeito, você tem o direito de estudar em paz.",
+      "piorar": "Chutar de volta, gritar no meio da aula ou ficar quieto aguentando por semanas.",
+      "saida": "Vire de lado e diga, firme e baixo: \"Davi, para de chutar a minha cadeira, por favor.\" Se continuar, levante a mão e conte para a professora.",
+      "ajuda": "Se continuar mesmo depois disso, conte em casa. Sua família pode conversar com a escola. Pedir de novo não é exagero.",
+      "img_ajuda": {
+        "p": [
+          "leo",
+          "prof"
+        ],
+        "cena": "the teacher crouching beside Leo's school desk listening attentively while Leo explains calmly, classroom, side view"
+      },
+      "valor": "Você pode pedir respeito sem desrespeitar ninguém.",
+      "conversa": [
+        "Vamos treinar juntos a frase firme? Como você diria?",
+        "Se a professora não resolver, o que fazemos?"
+      ]
+    },
+    {
+      "id": "090",
+      "volume": 2,
+      "capitulo": "Cap. 4 — Quando a culpa cai em mim",
+      "titulo": "Quando querem que eu assuma o que não fiz",
+      "idade": "7 a 12 anos",
+      "cena_texto": "A mochila da Júlia ficou encharcada de suco. Ela aponta para a Bia: \"Foi você! Pede desculpa!\" Mas não foi a Bia.",
+      "img_cena": {
+        "p": [
+          "bia"
+        ],
+        "cena": "school hallway, an upset classmate girl with long straight red hair and a green dress pointing at Bia and holding a wet backpack dripping orange juice, Bia looking surprised with hands open, three-quarter view"
+      },
+      "entenda": "A Júlia está chateada de verdade. Dá para cuidar dela sem dizer que você fez o que não fez.",
+      "piorar": "Pedir desculpas só para acabar logo com a briga (isso vira mentira) ou culpar outra pessoa sem saber.",
+      "saida": "Diga: \"Sinto muito pela sua mochila. Não fui eu, mas posso te ajudar a secar. Vamos falar com a professora?\"",
+      "ajuda": "Um adulto pode ouvir os dois lados com calma. Se ninguém acreditar em você, conte em casa.",
+      "img_ajuda": {
+        "p": [
+          "bia",
+          "prof"
+        ],
+        "cena": "the teacher sitting at a classroom table listening calmly to Bia and a classmate girl with long straight red hair and a green dress, both girls calm now, side view"
+      },
+      "valor": "Ser gentil não é o mesmo que assumir a culpa.",
+      "conversa": [
+        "Por que não é bom pedir desculpas por algo que a gente não fez?",
+        "Como mostrar que você se importa com a colega mesmo assim?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversa em Casa — situações da infância para ler junto com seu filho</title>
+<meta name="description" content="Kit grátis de páginas ilustradas para conversar com seu filho sobre raiva, imprevistos, escola, exclusão e provocação antes que aconteçam. Piloto aberto com 5 páginas e o mapa de 128 situações.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/kit-socioemocional/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/kit-socioemocional/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/kit-socioemocional/guia/es/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light nav{background:var(--bg)}
+  body.light .hero .glow{opacity:.5}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb);white-space:nowrap}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:18px;font-size:.9rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(250,204,21,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora;border:0;cursor:pointer;font-size:1rem}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:1360px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(250,204,21,.18),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;grid-template-areas:"top f2" "bot f1";gap:22px 40px;align-items:center;padding:64px 22px}
+  .hero .top{grid-area:top} .hero .bot{grid-area:bot} .hero .f1{grid-area:f1} .hero .f2{grid-area:f2}
+  .hero h1{font-size:clamp(2rem,4.4vw,3.2rem);font-weight:800;letter-spacing:-.025em;margin-top:.3em}
+  .hero p.lead{font-size:1.15rem;color:var(--mut);margin:0 0 1.4em;max-width:40ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;height:auto;display:block}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;grid-template-areas:"top" "f2" "bot" "f1";padding:40px 22px}}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:64ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)} .g5{grid-template-columns:repeat(5,1fr)}
+  @media(max-width:900px){.g3,.g4,.g5{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4,.g5{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.94rem;margin:0}
+  .card p+p{margin-top:.6em}
+  .antes{border-color:#7f1d1d} .depois{border-color:#14532d}
+  .tag{display:inline-block;font:700 .72rem Sora;letter-spacing:.1em;text-transform:uppercase;padding:.2em .6em;border-radius:6px;margin-bottom:.6em}
+  .antes .tag{background:rgba(185,28,28,.18);color:#f87171} .depois .tag{background:rgba(22,163,74,.18);color:#4ade80}
+  .passo{text-align:center}
+  .passo .n{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;margin:0 auto .6em;font:800 1.2rem Sora;color:#1a1206}
+  .quem-img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:12px;margin-bottom:12px;display:block}
+  .pags{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  @media(max-width:900px){.pags{grid-template-columns:1fr 1fr}}
+  .pags figure{margin:0;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
+  .pags img{width:100%;display:block}
+  .pags figcaption{padding:8px 10px;font-size:.82rem;color:var(--mut)}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px}
+  summary{cursor:pointer;font-family:Sora;font-weight:600}
+  details ol{margin:.8em 0 .2em;padding-left:1.4em;color:var(--mut);font-size:.93rem;columns:2;column-gap:2em}
+  @media(max-width:640px){details ol{columns:1}}
+  .vol{display:flex;gap:10px;align-items:baseline;margin:28px 0 12px}
+  .vol h3{font-size:1.2rem}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:22px}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.1rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 0}
+  .pedido{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:16px 18px;white-space:pre-wrap;font-size:.92rem;line-height:1.6;margin:12px 0}
+  .big{font:800 2.4rem Sora;color:var(--amb);line-height:1}
+  .aviso{border-left:4px solid var(--amb);padding:12px 16px;background:var(--bg2);border-radius:0 10px 10px 0;margin-top:18px;color:var(--mut);font-size:.95rem}
+  .base a{font-weight:600}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🏡</span> Conversa em Casa</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#explicado">O ganho</a>
+    <a class="sec" href="#dia">No seu dia</a>
+    <a class="sec" href="#como">Como funciona</a>
+    <a class="sec" href="#mapa">O mapa</a>
+    <a class="sec" href="#comecar">Como começar</a>
+    <a class="sec" href="#prova">O piloto</a>
+    <span class="lang"><a class="on" href="./">PT</a><a href="en/">EN</a><a href="es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
+    <a class="btn" href="https://github.com/inematds/kit-socioemocional" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div class="top">
+      <span class="chip">Kit grátis · piloto aberto · para ler junto</span>
+      <h1>Seu filho vai sentir raiva, ficar de fora, ser provocado. Com o <span class="amb">Conversa em Casa</span>, vocês conversam antes.</h1>
+    </div>
+    <div class="bot">
+      <p class="lead">Uma página ilustrada para cada situação da infância. Ele olha os quadros, você lê, e os dois combinam o que fazer quando acontecer de verdade.</p>
+      <div class="cta">
+        <a class="btn" href="#explicado">O que você ganha</a>
+        <a class="btn ghost" href="#comecar">Como começar</a>
+      </div>
+    </div>
+    <figure class="f2"><img src="assets/banner.jpg" alt="Banner Conversa em Casa: mãe e criança lendo um livro ilustrado juntas"></figure>
+    <figure class="f1"><img src="assets/hero.jpg" alt="Página 9 do piloto: Leo percebe a raiva, para e respira"></figure>
+  </div>
+</header>
+
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">Em uma frase</span>
+  <p>O Conversa em Casa é um kit grátis de páginas ilustradas para pais, professores e cuidadores lerem com crianças de 3 a 13 anos. Cada página mostra uma situação comum (raiva, um brinquedo que quebra, um colega que provoca) e o que a criança pode fazer, passo a passo, sem revidar e pedindo ajuda quando precisa. Não precisa saber ler: a criança acompanha pelos desenhos e você lê o texto. Hoje estão no ar o mapa com 128 situações em dois volumes e um piloto de 5 páginas para baixar e imprimir, em desenho ou em 3D.</p>
+</div></section>
+
+<section id="explicado"><div class="wrap">
+  <span class="chip">O ganho</span>
+  <h2>A conversa acontece antes da hora difícil</h2>
+  <p class="sub">Quando a raiva chega ou o colega provoca, não dá tempo de ensinar. Dá tempo de lembrar do que já foi conversado.</p>
+  <div class="grid g2">
+    <div class="card antes"><span class="tag">Hoje</span><h3>A lição chega no pior momento</h3><p>A criança grita, empurra ou engole calada. Você explica depois, no meio do choro, e ela não guarda nada.</p></div>
+    <div class="card depois"><span class="tag">Com o kit</span><h3>A lição chega num momento calmo</h3><p>Vocês leem a página numa noite tranquila. Quando a situação aparece, ela já viu a cena e já tem uma frase pronta para dizer.</p></div>
+  </div>
+  <div class="grid g3" style="margin-top:16px">
+    <div class="card"><h3>🗣️ Palavras para o que sente</h3><p>A criança aprende a dizer "fiquei bravo" em vez de mostrar com o corpo.</p></div>
+    <div class="card"><h3>🧭 Um caminho que se repete</h3><p>Os mesmos 5 passos em toda página: ela decora o caminho, não a regra.</p></div>
+    <div class="card"><h3>🤝 Ajuda sem vergonha</h3><p>Toda página mostra quem pode ajudar. Pedir ajuda vira parte do plano, não fracasso.</p></div>
+  </div>
+</div></section>
+
+<section id="dia"><div class="wrap">
+  <span class="chip">No seu dia</span>
+  <h2>Como isso muda a sua casa</h2>
+  <p class="sub">Três momentos comuns, antes e depois de uma página lida junto.</p>
+  <div class="grid g3">
+    <div class="card"><h3>🧱 O irmão derrubou a torre</h3><p><b>Hoje:</b> grito, empurrão, castigo.</p><p><b>Com a página 9:</b> ele para, respira e diz "fiquei bravo, eu gostava da torre". Se não passar, chama você.</p></div>
+    <div class="card"><h3>🐴 O brinquedo favorito quebrou</h3><p><b>Hoje:</b> choro sem fim e a sensação de que acabou.</p><p><b>Com a página 33:</b> ela guarda os pedaços, pede ajuda para colar e descobre que muita coisa tem conserto.</p></div>
+    <div class="card"><h3>🪑 O colega chuta a cadeira</h3><p><b>Hoje:</b> chuta de volta ou aguenta calado por semanas.</p><p><b>Com a página 97:</b> fala uma frase firme e baixa, avisa a professora e conta em casa se continuar.</p></div>
+  </div>
+  <div class="grid g4" style="margin-top:16px">
+    <div class="card"><span class="big">10</span><p>minutos por noite: uma página, duas perguntas.</p></div>
+    <div class="card"><span class="big">1</span><p>situação por vez. Sem maratona.</p></div>
+    <div class="card"><span class="big">0</span><p>app ou vídeo: imprima a página ou mostre no tablet, e pronto.</p></div>
+    <div class="card"><span class="big">2</span><p>perguntas no fim de cada página para conversar.</p></div>
+  </div>
+</div></section>
+
+<!-- VIDEO: entra o explicavideo do projeto quando publicado -->
+
+<section id="como"><div class="wrap">
+  <span class="chip">Como funciona</span>
+  <h2>Os mesmos 5 passos em todas as páginas</h2>
+  <p class="sub">Como um semáforo que a criança aprende uma vez e usa em qualquer cruzamento.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line)"><img src="assets/banner-grade.jpg" alt="As partes do kit: o que muda em casa, os 5 passos, os dois volumes, o piloto e como começar" loading="lazy" style="width:100%;display:block"></figure>
+  <div class="grid g5">
+    <div class="card passo"><div class="n" style="background:#38bdf8">1</div><h3>Percebo</h3><p>O que aconteceu e o que eu sinto. Dou nome à emoção.</p></div>
+    <div class="card passo"><div class="n" style="background:#f87171">2</div><h3>Paro</h3><p>Respiro devagar antes de reagir. Me afasto um pouco se precisar.</p></div>
+    <div class="card passo"><div class="n" style="background:#a78bfa">3</div><h3>Penso</h3><p>Uma saída que piora e uma que ajuda.</p></div>
+    <div class="card passo"><div class="n" style="background:#34d399">4</div><h3>Faço</h3><p>A que ajuda, com uma frase pronta para dizer.</p></div>
+    <div class="card passo"><div class="n" style="background:#fb923c">5</div><h3>Peço ajuda</h3><p>Quando não dá sozinho, chamo um adulto. Isso é força.</p></div>
+  </div>
+  <div class="grid g2" style="margin-top:22px">
+    <div class="card"><h3>📘 Volume 1 · O que eu sinto</h3><p>Tirinha de 6 quadros, um por passo, mais o final feliz. Raiva, medo, frustração, imprevistos em casa, escola, mudanças, médico. Feita para os pequenos: pouco texto, muita imagem.</p></div>
+    <div class="card"><h3>📗 Volume 2 · Eu convivo e me protejo</h3><p>Uma cena, o que está acontecendo, o que <b>não ajuda</b> e o que <b>experimentar dizer</b>, quem pode ajudar e a conversa de família. Amizade, exclusão, provocação, acusação, força, internet.</p></div>
+  </div>
+  <div class="aviso"><b>O que o kit não promete:</b> não é terapia e não resolve sozinho. Ele abre a conversa e dá à criança um roteiro para lembrar. A regra do Volume 2 é fixa: nunca ensinar revide nem deboche; segurança vem antes de qualquer objeto; força, ameaça, grupo ou repetição sempre com um adulto junto.</div>
+</div></section>
+
+<section id="quem"><div class="wrap">
+  <span class="chip">Para quem</span>
+  <h2>Quem usa e o que cada um ganha</h2>
+  <p class="sub">As ilustrações abaixo são do próprio piloto.</p>
+  <div class="grid g3">
+    <div class="card"><img class="quem-img" src="assets/quem-pais.jpg" alt="Mãe abraçando o filho no tapete da sala" loading="lazy"><h3>👨‍👩‍👧 Pais e mães</h3><p>Uma conversa por noite sobre o que vai acontecer na escola e em casa, com palavras prontas para usar.</p></div>
+    <div class="card"><img class="quem-img" src="assets/quem-escola.jpg" alt="Professora agachada ouvindo um aluno na carteira" loading="lazy"><h3>🏫 Professores</h3><p>Uma página projetada em roda de conversa sobre convivência e bullying, com as perguntas no fim para a turma.</p></div>
+    <div class="card"><img class="quem-img" src="assets/quem-cuidadores.jpg" alt="Mãe e filha colando juntas um cavalinho de madeira" loading="lazy"><h3>🧸 Avós e cuidadores</h3><p>Um jeito simples de falar de emoção sem sermão: a página faz a parte difícil, você só lê junto.</p></div>
+  </div>
+</div></section>
+
+<section id="mapa"><div class="wrap">
+  <span class="chip">O mapa</span>
+  <h2>128 situações em dois volumes</h2>
+  <p class="sub">8 capítulos por volume, 8 situações por capítulo. Cada uma tem a faixa de idade: P (3 a 6), M (7 a 10), G (11 a 13). Abra um capítulo para ver a lista.</p>
+
+  <div class="vol"><h3>📘 Volume 1 · O que eu sinto</h3><span class="mut">situações 1 a 64</span></div>
+  <details><summary>Cap. 1 · Que emoção é essa?</summary><ol start="1"><li>Que emoção é essa?</li><li>Onde a emoção aparece no meu corpo</li><li>Emoção pequena ou grande?</li><li>Posso sentir duas coisas ao mesmo tempo</li><li>Os outros sentem diferente de mim</li><li>Quando não sei o que estou sentindo</li><li>Contar o que sinto com palavras</li><li>Toda emoção pode; nem toda atitude pode</li></ol></details>
+  <details><summary>Cap. 2 · Quando a emoção cresce</summary><ol start="9"><li>Quando estou com raiva ✅ piloto</li><li>Quando estou frustrado</li><li>Quando estou com medo</li><li>Quando estou preocupado</li><li>Quando estou triste e não sei por quê</li><li>Quando sinto vergonha</li><li>Quando sinto ciúme do meu irmão</li><li>Quando sinto inveja de um amigo</li></ol></details>
+  <details><summary>Cap. 3 · Volto para a calma</summary><ol start="17"><li>Respirar devagar (a respiração do balão)</li><li>Contar até 10 e me afastar um pouco</li><li>Meu cantinho da calma</li><li>O corpo ajuda a acalmar</li><li>Problema pequeno ou grande? ✅ piloto</li><li>Esperar a minha vez</li><li>Esperar uma coisa que eu quero muito</li><li>Parar quando o corpo está agitado demais</li></ol></details>
+  <details><summary>Cap. 4 · Nem sempre sai do meu jeito</summary><ol start="25"><li>Quando eu perco um jogo</li><li>Quando ouço um "não"</li><li>Quando mudam o plano em cima da hora</li><li>Quando eu erro</li><li>Quando não consigo de primeira</li><li>Quando ganho uma nota baixa</li><li>Quando o desenho não fica como eu imaginei</li><li>Quando a culpa foi minha e preciso dizer</li></ol></details>
+  <details><summary>Cap. 5 · Deu errado aqui em casa</summary><ol start="33"><li>Quando meu brinquedo favorito quebra ✅ piloto</li><li>Quando a chuva estraga o passeio</li><li>Quando meu irmão mexe nas minhas coisas</li><li>Quando o trovão me assusta</li><li>Quando a visita vai embora</li><li>Quando a comida não é a que eu gosto</li><li>Quando tenho que desligar a tela</li><li>Quando acordo de um sonho ruim</li></ol></details>
+  <details><summary>Cap. 6 · Na sala de aula</summary><ol start="41"><li>Quando a aula parece chata</li><li>Quando termino antes dos outros</li><li>Quando não entendi a explicação</li><li>Quando tenho medo de perguntar</li><li>Quando o dever parece difícil demais</li><li>Antes de uma prova</li><li>Apresentar trabalho na frente da turma</li><li>Quando me distraio e perco a aula</li></ol></details>
+  <details><summary>Cap. 7 · Mudanças e lugares novos</summary><ol start="49"><li>O primeiro dia na escola nova</li><li>Quando vamos mudar de casa</li><li>Quando chega um irmãozinho</li><li>Ficar com outra pessoa quando os pais saem</li><li>Lugar com muita gente e barulho</li><li>Viajar e dormir fora</li><li>Quando tenho duas casas</li><li>Quando um animal de estimação morre</li></ol></details>
+  <details><summary>Cap. 8 · Saúde e corpo</summary><ol start="57"><li>Ir ao médico</li><li>Tomar vacina</li><li>Ir ao dentista</li><li>Remédio com gosto ruim</li><li>Doente e sem poder brincar</li><li>Cortar o cabelo</li><li>Dormir na hora certa</li><li>Quando alguém da família está doente</li></ol></details>
+
+  <div class="vol"><h3>📗 Volume 2 · Eu convivo e me protejo</h3><span class="mut">situações 65 a 128</span></div>
+  <details><summary>Cap. 1 · Fazer e manter amigos</summary><ol start="65"><li>Entrar numa brincadeira que já começou</li><li>Quando queremos brincar de coisas diferentes</li><li>Dividir um brinquedo</li><li>Quando meu amigo brinca com outra pessoa</li><li>Pedir desculpas de verdade</li><li>Quando meu amigo me pede desculpas</li><li>Amigo de verdade × amigo que só me usa</li><li>Quando um amigo conta meu segredo</li></ol></details>
+  <details><summary>Cap. 2 · Quando me deixam de fora</summary><ol start="73"><li>"Você não pode brincar com a gente"</li><li>Quando ninguém senta comigo no recreio</li><li>Ninguém me escolhe para o time</li><li>Não fui convidado para a festa</li><li>O grupo combinou de não falar comigo</li><li>Me deixaram fora do grupo da turma</li><li>Quando eu sou o novo</li><li>Quando eu deixo alguém de fora</li></ol></details>
+  <details><summary>Cap. 3 · Riso que machuca</summary><ol start="81"><li>Quando riem de mim</li><li>Um apelido que eu não gosto</li><li>Zombam da minha roupa, cabelo ou corpo</li><li>Imitam meu jeito de falar</li><li>Brincadeira ou provocação?</li><li>Quando dizem que eu sou burro</li><li>Quando se repete todo dia (é bullying)</li><li>Responder com firmeza sem ofender</li></ol></details>
+  <details><summary>Cap. 4 · Quando a culpa cai em mim</summary><ol start="89"><li>Dizem que peguei algo que não peguei</li><li>Querem que eu assuma o que não fiz ✅ piloto</li><li>Espalham uma mentira sobre mim</li><li>O professor acredita no outro</li><li>Um colega quer colar de mim na prova</li><li>Eu vi quem fez e tenho medo de contar</li><li>Contar × dedurar</li><li>Quando a culpa foi minha mesmo</li></ol></details>
+  <details><summary>Cap. 5 · Força, ameaça e medo</summary><ol start="97"><li>Alguém atrás de mim não para de me incomodar ✅ piloto</li><li>Quando não me deixam passar</li><li>Pegam meu lanche ou material</li><li>Ameaçam me bater</li><li>Um grupo me cerca</li><li>Me desafiam para uma briga</li><li>Me machucam e dizem "foi sem querer"</li><li>Meu corpo vale mais que qualquer objeto</li></ol></details>
+  <details><summary>Cap. 6 · Meu corpo é meu (sai só depois de revisão de especialista)</summary><ol start="105"><li>Posso dizer "não" a um abraço ou beijo</li><li>Partes do corpo que são só minhas</li><li>Segredo bom × segredo ruim</li><li>Quando pedem algo estranho</li><li>Quando alguém me deixa desconfortável</li><li>Meus adultos de confiança</li><li>Me perder num lugar cheio</li><li>Quando um estranho puxa conversa</li></ol></details>
+  <details><summary>Cap. 7 · No celular e na internet</summary><ol start="113"><li>Falam mal de mim no grupo</li><li>Postam minha foto sem eu querer</li><li>Um desconhecido me chama no jogo</li><li>Me pedem foto ou senha</li><li>Um desafio perigoso no vídeo</li><li>Vejo algo que me assusta na tela</li><li>Print, bloqueio e adulto</li><li>Antes de postar: e se fosse comigo?</li></ol></details>
+  <details><summary>Cap. 8 · Quando eu vejo acontecer com outro</summary><ol start="121"><li>Vejo alguém sendo zoado</li><li>Todos riem e eu não acho graça</li><li>Ficar do lado de quem está sozinho</li><li>Avisar um adulto sem me expor</li><li>Meu amigo é quem faz bullying</li><li>Eu fiz bullying e quero consertar</li><li>Um colega com jeito diferente</li><li>Fazer a escola um lugar melhor</li></ol></details>
+</div></section>
+
+<section id="comecar"><div class="wrap">
+  <span class="chip">Como começar</span>
+  <h2>Hoje à noite, com uma página</h2>
+  <p class="sub">Não precisa instalar nada. Só o PDF do piloto.</p>
+  <div class="step"><div class="b">1</div><div><h3>Baixe o piloto no estilo que seu filho prefere</h3><p>As mesmas 5 páginas, em PDF tamanho A4, em dois estilos de ilustração. O desenho gasta menos tinta na impressora.</p>
+    <div class="cta" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px"><a class="btn" href="assets/conversa-em-casa-piloto-desenho.pdf" download>✏️ Baixar em desenho (1,7 MB)</a><a class="btn ghost" href="assets/conversa-em-casa-piloto-3d.pdf" download>🎬 Baixar em 3D (1,6 MB)</a></div></div></div>
+  <div class="step"><div class="b">2</div><div><h3>Escolha uma situação que já aconteceu</h3><p>Comece pelo que é familiar: se teve briga de irmãos esta semana, a página 9. Imprima ou mostre no tablet.</p></div></div>
+  <div class="step"><div class="b">3</div><div><h3>Leia junto e faça as 2 perguntas</h3><p>A criança olha cada quadro, você lê a legenda. No fim, as perguntas da "Conversa de família". Sem pressa e sem prova: vale qualquer resposta.</p></div></div>
+  <details class="card" style="margin-top:10px"><summary>🤖 Para quem usa IA (opcional): pedir uma página da situação do seu filho</summary>
+    <p>Se você não usa nenhum assistente de IA, pode pular esta parte: as páginas do piloto já bastam. O Claude Code e o Codex são assistentes de IA que leem os arquivos do kit (o mapa e as páginas) e escrevem uma página nova no mesmo formato.</p>
+    
+    <h3>💬 Quer uma página da situação do seu filho?</h3>
+    <p>Se você usa o Claude Code ou o Codex, cole o pedido abaixo. A IA lê o kit, escreve uma página nova no mesmo formato e mostra o texto antes de qualquer imagem.</p>
+    <div class="pedido" id="pedido">Leia o repositório github.com/inematds/kit-socioemocional, em especial o MAPA.md e o arquivo piloto/roteiro.json.
+Meu filho tem [IDADE] anos e está passando por isto: [CONTE A SITUAÇÃO EM 2 OU 3 FRASES].
+Escreva uma página nova no mesmo formato do kit (Volume 1 se for emoção ou imprevisto; Volume 2 se for convivência), com os 5 passos, uma frase pronta para a criança dizer, quem pode ajudar e duas perguntas para conversarmos.
+Regras: nada de revide ou deboche, linguagem para a idade dele, e me mostre só o texto. Não gere imagens nem altere arquivos antes do meu sim.</div>
+    <button class="btn" id="copiar">Copiar o pedido</button>
+    <p style="margin-top:12px">É técnico e você quer gerar as ilustrações também? O passo a passo está no <a href="https://github.com/inematds/kit-socioemocional#instalação-técnica" target="_blank" rel="noopener">README do projeto</a>.</p>
+  </details>
+</div></section>
+
+<section id="base" class="base"><div class="wrap">
+  <span class="chip">De onde vem</span>
+  <h2>Métodos que já existem, num formato para casa</h2>
+  <p class="sub">O kit não inventa a pedagogia. Ele junta peças conhecidas num formato ilustrado, em português e grátis.</p>
+  <div class="grid g3">
+    <div class="card"><h3>📖 Histórias Sociais</h3><p>Criadas por Carol Gray em 1993: histórias curtas em primeira pessoa que mostram uma situação antes de ela acontecer. Nasceram para crianças autistas e hoje se usam com qualquer criança.</p></div>
+    <div class="card"><h3>🌡️ RULER (Yale)</h3><p>Reconhecer, entender, nomear, expressar e regular a emoção. Vem daí a ideia de dar nome ao que sente e medir o tamanho da emoção. <a href="https://edtechbooks.org/docx/7202" target="_blank" rel="noopener">Sobre o método</a></p></div>
+    <div class="card"><h3>🚦 Zonas de Regulação</h3><p>Estados emocionais por cores, cada um com sua caixa de estratégias, e a pergunta "problema pequeno ou grande?". <a href="https://zonesofregulation.com/free-downloads/" target="_blank" rel="noopener">Materiais grátis (em inglês)</a></p></div>
+    <div class="card"><h3>👀 Percebo, sinto, consigo</h3><p>O plano de 3 passos da Sesame Workshop (Vila Sésamo) para emoções grandes. <a href="https://sesameworkshop.org/resources/i-notice-i-feel-i-can-2/" target="_blank" rel="noopener">I Notice, I Feel, I Can (em inglês)</a></p></div>
+    <div class="card"><h3>🛡️ Segurança pessoal</h3><p>Frase firme, distância e adulto de confiança, na linha do Kidpower. <a href="https://www.mprj.mp.br/documents/20184/8434137/apresentacao_juliana_schweidzon_machado_kidpower_internacional_parte_1.pdf" target="_blank" rel="noopener">Apresentação no MPRJ</a></p></div>
+    <div class="card"><h3>⚖️ Lei 13.185/2015</h3><p>A lei de combate à intimidação sistemática (bullying) pede prevenção nas escolas. Material oficial: <a href="https://www.gov.br/mec/pt-br/escola-que-protege/bullying-e-convivencia-escolar-_-entendendo.pdf" target="_blank" rel="noopener">MEC, Bullying e convivência escolar</a>.</p></div>
+  </div>
+  <div class="aviso"><b>Com honestidade:</b> as pesquisas sobre histórias sociais têm resultado misto. Funcionam melhor para diminuir um comportamento difícil do que para ensinar uma habilidade nova (<a href="https://link.springer.com/article/10.1007/s40489-020-00235-6" target="_blank" rel="noopener">revisão de 2020</a>). Por isso o kit não promete resultado: ele abre a conversa. Se a criança sofre muito ou a situação se repete, procure a escola e um profissional.</div>
+</div></section>
+
+<section id="prova"><div class="wrap">
+  <span class="chip">O piloto</span>
+  <h2>5 páginas feitas, em dois estilos para você escolher</h2>
+  <p class="sub">Três do Volume 1 e duas do Volume 2, com o mesmo texto. Mostre os dois estilos para seu filho e deixe ele escolher. Clique para ver em tamanho grande.</p>
+  <div class="vol"><h3>✏️ Em desenho</h3><span class="mut">traço de livro infantil, fundo branco, gasta pouca tinta</span></div>
+  <div class="pags">
+    <figure><a href="assets/pagina-2d-009.jpg" target="_blank"><img src="assets/pagina-2d-009.jpg" alt="Página 9: Quando estou com raiva (desenho)" loading="lazy"></a><figcaption>9 · Quando estou com raiva</figcaption></figure>
+    <figure><a href="assets/pagina-2d-033.jpg" target="_blank"><img src="assets/pagina-2d-033.jpg" alt="Página 33: Quando meu brinquedo favorito quebra (desenho)" loading="lazy"></a><figcaption>33 · Quando meu brinquedo favorito quebra</figcaption></figure>
+    <figure><a href="assets/pagina-2d-021.jpg" target="_blank"><img src="assets/pagina-2d-021.jpg" alt="Página 21: Problema pequeno ou problema grande? (desenho)" loading="lazy"></a><figcaption>21 · Problema pequeno ou grande?</figcaption></figure>
+    <figure><a href="assets/pagina-2d-097.jpg" target="_blank"><img src="assets/pagina-2d-097.jpg" alt="Página 97: Quando alguém atrás de mim não para de me incomodar (desenho)" loading="lazy"></a><figcaption>97 · Alguém atrás de mim não para de me incomodar</figcaption></figure>
+    <figure><a href="assets/pagina-2d-090.jpg" target="_blank"><img src="assets/pagina-2d-090.jpg" alt="Página 90: Quando querem que eu assuma o que não fiz (desenho)" loading="lazy"></a><figcaption>90 · Querem que eu assuma o que não fiz</figcaption></figure>
+  </div>
+  <div class="vol"><h3>🎬 Em 3D</h3><span class="mut">cenas completas, jeito de filme de animação</span></div>
+  <div class="pags">
+    <figure><a href="assets/pagina-009.jpg" target="_blank"><img src="assets/pagina-009.jpg" alt="Página 9: Quando estou com raiva (3D)" loading="lazy"></a><figcaption>9 · Quando estou com raiva</figcaption></figure>
+    <figure><a href="assets/pagina-033.jpg" target="_blank"><img src="assets/pagina-033.jpg" alt="Página 33: Quando meu brinquedo favorito quebra (3D)" loading="lazy"></a><figcaption>33 · Quando meu brinquedo favorito quebra</figcaption></figure>
+    <figure><a href="assets/pagina-021.jpg" target="_blank"><img src="assets/pagina-021.jpg" alt="Página 21: Problema pequeno ou problema grande? (3D)" loading="lazy"></a><figcaption>21 · Problema pequeno ou grande?</figcaption></figure>
+    <figure><a href="assets/pagina-097.jpg" target="_blank"><img src="assets/pagina-097.jpg" alt="Página 97: Quando alguém atrás de mim não para de me incomodar (3D)" loading="lazy"></a><figcaption>97 · Alguém atrás de mim não para de me incomodar</figcaption></figure>
+    <figure><a href="assets/pagina-090.jpg" target="_blank"><img src="assets/pagina-090.jpg" alt="Página 90: Quando querem que eu assuma o que não fiz (3D)" loading="lazy"></a><figcaption>90 · Querem que eu assuma o que não fiz</figcaption></figure>
+  </div>
+  <div class="grid g4" style="margin-top:22px">
+    <div class="card"><span class="big">44</span><p>ilustrações nas 10 páginas (22 por estilo), mais as referências de cada personagem e do cavalinho.</p></div>
+    <div class="card"><span class="big">6 × 3</span><p>ilustrações refeitas: 6 no 3D e 3 no desenho (personagem repetido, folha de referência copiada, papéis trocados).</p></div>
+    <div class="card"><span class="big">0</span><p>letras dentro das imagens: o texto entra por cima, sempre certo e fácil de traduzir.</p></div>
+    <div class="card"><span class="big">4</span><p>personagens fixos: Leo, Bia, a mãe e a professora.</p></div>
+  </div>
+  <div class="aviso"><b>O que ainda falha:</b> o personagem nem sempre sai idêntico entre quadros (no 3D, a tiara da Bia sumiu num quadro; nos dois estilos, um objeto mudou de tamanho até ganhar referência própria). Para o kit inteiro, cada personagem e cada objeto que se repete ganha uma imagem de referência.</div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <span class="chip">Perguntas</span>
+  <h2>Perguntas comuns</h2>
+  <div class="grid g2" style="margin-top:18px">
+    <div class="card"><h3>Meu filho precisa saber ler?</h3><p>Não. Ele acompanha pelos desenhos e você lê. Para os maiores, ele mesmo pode ler e contar o que acha.</p></div>
+    <div class="card"><h3>Custa alguma coisa?</h3><p>Não. O kit é grátis, como todo o conteúdo do inema.club.</p></div>
+    <div class="card"><h3>Substitui psicólogo ou a escola?</h3><p>Não. É um apoio para conversar em casa. Bullying que se repete, medo forte ou mudança de comportamento pedem a escola e um profissional.</p></div>
+    <div class="card"><h3>Serve para criança autista?</h3><p>As histórias sociais nasceram para crianças autistas, e o formato visual ajuda. Combine o uso com o terapeuta, que pode adaptar a página à criança.</p></div>
+    <div class="card"><h3>Por que o kit não ensina a revidar?</h3><p>Revidar costuma piorar e pode machucar. A frase firme, a distância e o adulto junto protegem sem criar uma briga nova.</p></div>
+    <div class="card"><h3>Quando saem as outras páginas?</h3><p>O mapa das 128 está pronto. As páginas saem por capítulo depois do piloto; o capítulo "Meu corpo é meu" só sai com revisão de especialista.</p></div>
+  </div>
+  <p class="sub" style="margin-top:28px">Qual situação você queria ter conversado antes com seu filho? Leia a primeira página hoje: grátis no inema.club, direto na internet.</p>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Histórias Sociais</div><div class="pill">PT · EN · ES</div><div class="pill">Grátis</div>
+    <p style="margin-top:18px">Conversa em Casa · piloto aberto, nome provisório ·
+      <a href="https://github.com/inematds/kit-socioemocional">inematds/kit-socioemocional</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='kit-socioemocional-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){}
+    });
+    var c=document.getElementById('copiar');
+    c.addEventListener('click',function(){
+      var txt=document.getElementById('pedido').innerText;
+      navigator.clipboard.writeText(txt).then(function(){ var o=c.textContent; c.textContent='Copiado ✓'; setTimeout(function(){c.textContent=o;},1800); });
+    });
+  })();
+</script>
+</body>
+</html>

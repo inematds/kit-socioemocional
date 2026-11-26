@@ -1,0 +1,52 @@
+<!doctype html><html lang='pt-BR'><meta charset='utf-8'><title>Problema pequeno ou problema grande?</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;800&family=Inter:wght@400;600&display=swap');
+@page { size: A4; margin: 0 }
+* { box-sizing: border-box; margin: 0; padding: 0 }
+body { font-family: Inter, sans-serif; color: #221E18; background: #F7F3EA }
+.pg { width: 210mm; height: 297mm; padding: 11mm 11mm 9mm; display: flex; flex-direction: column; gap: 4.5mm; page-break-after: always; overflow: hidden }
+.pg > * { flex-shrink: 0 }
+.pg > .grade { flex-shrink: 1 }
+.top { display: flex; justify-content: space-between; align-items: flex-start; gap: 6mm }
+.selo { font: 600 9pt Sora; color: #5E5546; letter-spacing: .02em }
+.selo b { color: #221E18 }
+.num { font: 800 18pt Sora; background: #FACC15; color: #1a1206; border-radius: 50%; width: 15mm; height: 15mm; display: grid; place-items: center; flex: none }
+h1 { font: 800 24pt/1.08 Sora; letter-spacing: -.01em }
+h1 .mk { background: linear-gradient(transparent 58%, #FACC15 58%) }
+.idade { font: 600 9pt Inter; color: #5E5546; margin-top: 1.5mm }
+.grade { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 4mm; flex: 1; min-height: 0 }
+.q { background: #fff; border: 1px solid #E2D9C8; border-radius: 4mm; overflow: hidden; display: flex; flex-direction: column }
+.q img { width: 100%; flex: 1 1 0; min-height: 0; object-fit: cover; display: block }
+.q .leg { padding: 2mm 3mm 2.4mm; font-size: 10.2pt; line-height: 1.28; flex: none }
+.q .tag { display: flex; align-items: center; gap: 1.6mm; font: 800 9pt Sora; margin-bottom: 1mm }
+.q .tag i { width: 5.4mm; height: 5.4mm; border-radius: 50%; display: grid; place-items: center; font-style: normal; color: #1a1206; font-size: 8.5pt }
+.faixa { display: grid; grid-template-columns: 1.15fr 1fr; gap: 4mm }
+.box { background: #fff; border: 1px solid #E2D9C8; border-radius: 4mm; padding: 3mm 4mm; font-size: 10.5pt; line-height: 1.35 }
+.box h3 { font: 800 9pt Sora; text-transform: uppercase; letter-spacing: .05em; color: #5E5546; margin-bottom: 1.2mm }
+.ideia { background: #FEF9C3; border-color: #EAB308; font: 600 12.5pt/1.3 Sora }
+.box ol { padding-left: 4.5mm }
+.rod { display: flex; justify-content: space-between; align-items: center; font: 600 9pt Sora; color: #5E5546; border-top: 1px solid #E2D9C8; padding-top: 2.5mm }
+.rod .fecho { color: #221E18; font-weight: 800; font-size: 11pt }
+/* volume 2 */
+.cena { display: grid; grid-template-rows: minmax(0, 1fr); grid-template-columns: 1.35fr 1fr; gap: 4mm; align-items: stretch }
+.cena img, .ajuda img { width: 100%; height: 100%; object-fit: cover; border-radius: 4mm; display: block }
+.cena .box { display: flex; flex-direction: column; justify-content: center; font-size: 11.5pt }
+.escolha { display: grid; gap: 3mm }
+.op { display: grid; grid-template-columns: 30mm 1fr; border-radius: 4mm; overflow: hidden; border: 1px solid #E2D9C8; background: #fff }
+.op .r { display: grid; place-items: center; text-align: center; font: 800 10pt/1.2 Sora; padding: 2mm; color: #fff }
+.op .t { padding: 3mm 4mm; font-size: 11pt; line-height: 1.38 }
+.nao .r { background: #b91c1c }
+.sim .r { background: #0E6B55 }
+.ajuda { display: grid; grid-template-rows: minmax(0, 1fr); grid-template-columns: 1fr 62mm; gap: 4mm; align-items: stretch; margin-bottom: 2mm }
+.d2 .q img, .d2 .cena img, .d2 .ajuda img { object-fit: contain; background: #fff }
+.valor { text-align: center; font: 800 13pt Sora; padding: 3mm; border-radius: 4mm; background: #FEF9C3; border: 1px solid #EAB308 }
+</style><body><section class='pg d2'><div class='top'><div><div class='selo'><b>Conversa em Casa</b> · Vol. 1 · O que eu sinto · Cap. 3 — Volto para a calma</div>
+<h1><span class='mk'>Problema pequeno ou problema grande?</span></h1><div class='idade'>Para ler junto · 5 a 10 anos</div></div>
+<div class='num'>21</div></div><div class='grade'><div class='q'><img src='../jpg/p021-q1.jpg'><div class='leg'>
+<div class='tag'><i style='background:#38bdf8'>1</i>Percebo</div>A ponta do meu lápis quebrou bem na hora do desenho! Parece um problemão.</div></div><div class='q'><img src='../jpg/p021-q2.jpg'><div class='leg'>
+<div class='tag'><i style='background:#f87171'>2</i>Paro</div>Eu paro e respiro. Depois eu olho de novo para o problema.</div></div><div class='q'><img src='../jpg/p021-q3.jpg'><div class='leg'>
+<div class='tag'><i style='background:#a78bfa'>3</i>Penso</div>Ele é pequeno, médio ou grande? Pequeno: eu resolvo. Médio: tento, e se não der peço ajuda. Grande: chamo um adulto.</div></div><div class='q'><img src='../jpg/p021-q4.jpg'><div class='leg'>
+<div class='tag'><i style='background:#34d399'>4</i>Faço</div>Lápis quebrado é problema pequeno. Pego o apontador e pronto.</div></div><div class='q'><img src='../jpg/p021-q5.jpg'><div class='leg'>
+<div class='tag'><i style='background:#fb923c'>5</i>Peço ajuda</div>Mas quando um colega cai e se machuca, é grande: chamo a professora na hora.</div></div><div class='q'><img src='../jpg/p021-q6.jpg'><div class='leg'>
+<div class='tag'><i style='background:#FACC15'>6</i>Consegui</div>Agora eu sei: o tamanho da minha reação combina com o tamanho do problema.</div></div></div>
+<div class='faixa'><div class='box ideia'><h3>Uma ideia para lembrar</h3>Problema pequeno, reação pequena. Problema grande, adulto junto.</div>
+<div class='box'><h3>Conversa de família</h3><ol><li>Me dê um exemplo de problema pequeno e um de problema grande.</li><li>Quem você chama quando o problema é grande?</li></ol></div></div><div class='rod'><span>inema.club · grátis</span><span class='fecho'>Passo a passo, eu consigo.</span><span>Situação 021</span></div></section></body></html>

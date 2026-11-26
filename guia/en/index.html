@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Talk at Home — childhood situations to read about with your child</title>
+<meta name="description" content="A free kit of illustrated pages to talk with your child about anger, unexpected events, school, exclusion, and teasing before they happen. Open pilot with 5 pages and a map of 128 situations.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/kit-socioemocional/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/kit-socioemocional/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/kit-socioemocional/guia/es/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    color-scheme:light;
+  }
+  body.light nav{background:var(--bg)}
+  body.light .hero .glow{opacity:.5}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb);white-space:nowrap}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:18px;font-size:.9rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:rgba(250,204,21,.12)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora;border:0;cursor:pointer;font-size:1rem}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:1360px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(250,204,21,.18),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;grid-template-areas:"top f2" "bot f1";gap:22px 40px;align-items:center;padding:64px 22px}
+  .hero .top{grid-area:top} .hero .bot{grid-area:bot} .hero .f1{grid-area:f1} .hero .f2{grid-area:f2}
+  .hero h1{font-size:clamp(2rem,4.4vw,3.2rem);font-weight:800;letter-spacing:-.025em;margin-top:.3em}
+  .hero p.lead{font-size:1.15rem;color:var(--mut);margin:0 0 1.4em;max-width:40ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;height:auto;display:block}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;grid-template-areas:"top" "f2" "bot" "f1";padding:40px 22px}}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:64ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)} .g5{grid-template-columns:repeat(5,1fr)}
+  @media(max-width:900px){.g3,.g4,.g5{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4,.g5{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;min-width:0}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.94rem;margin:0}
+  .card p+p{margin-top:.6em}
+  .antes{border-color:#7f1d1d} .depois{border-color:#14532d}
+  .tag{display:inline-block;font:700 .72rem Sora;letter-spacing:.1em;text-transform:uppercase;padding:.2em .6em;border-radius:6px;margin-bottom:.6em}
+  .antes .tag{background:rgba(185,28,28,.18);color:#f87171} .depois .tag{background:rgba(22,163,74,.18);color:#4ade80}
+  .passo{text-align:center}
+  .passo .n{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;margin:0 auto .6em;font:800 1.2rem Sora;color:#1a1206}
+  .quem-img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:12px;margin-bottom:12px;display:block}
+  .pags{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+  @media(max-width:900px){.pags{grid-template-columns:1fr 1fr}}
+  .pags figure{margin:0;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:var(--card)}
+  .pags img{width:100%;display:block}
+  .pags figcaption{padding:8px 10px;font-size:.82rem;color:var(--mut)}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px}
+  summary{cursor:pointer;font-family:Sora;font-weight:600}
+  details ol{margin:.8em 0 .2em;padding-left:1.4em;color:var(--mut);font-size:.93rem;columns:2;column-gap:2em}
+  @media(max-width:640px){details ol{columns:1}}
+  .vol{display:flex;gap:10px;align-items:baseline;margin:28px 0 12px}
+  .vol h3{font-size:1.2rem}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:22px}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.1rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 0}
+  .pedido{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:16px 18px;white-space:pre-wrap;font-size:.92rem;line-height:1.6;margin:12px 0}
+  .big{font:800 2.4rem Sora;color:var(--amb);line-height:1}
+  .aviso{border-left:4px solid var(--amb);padding:12px 16px;background:var(--bg2);border-radius:0 10px 10px 0;margin-top:18px;color:var(--mut);font-size:.95rem}
+  .base a{font-weight:600}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:0 4px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🏡</span> Talk at Home</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#explicado">What you gain</a>
+    <a class="sec" href="#dia">Everyday use</a>
+    <a class="sec" href="#como">How it works</a>
+    <a class="sec" href="#mapa">The map</a>
+    <a class="sec" href="#comecar">How to start</a>
+    <a class="sec" href="#prova">The pilot</a>
+    <span class="lang"><a href="../">PT</a><a class="on" href="./">EN</a><a href="../es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+    <a class="btn" href="https://github.com/inematds/kit-socioemocional" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div class="top">
+      <span class="chip">Free kit · open pilot · read together</span>
+      <h1>Your child will feel angry, be left out, or get teased. With <span class="amb">Talk at Home</span>, you can talk about it first.</h1>
+    </div>
+    <div class="bot">
+      <p class="lead">There’s an illustrated page for every childhood situation. Your child looks at the pictures as you read, and together you decide what to do when it happens.</p>
+      <div class="cta">
+        <a class="btn" href="#explicado">What you get</a>
+        <a class="btn ghost" href="#comecar">How to start</a>
+      </div>
+    </div>
+    <figure class="f2"><img src="../assets/banner-en.jpg" alt="Talk at Home banner: a mother and child reading an illustrated book together"></figure>
+    <figure class="f1"><img src="../assets/hero.jpg" alt="Pilot page 9: Leo notices his anger, stops, and breathes"></figure>
+  </div>
+</header>
+
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">In a nutshell</span>
+  <p>Talk at Home is a free kit of illustrated pages for parents, teachers, and caregivers to read with children ages 3 to 13. Each page shows a common situation (anger, a broken toy, a teasing classmate) and what the child can do, step by step, without lashing out and asking for help when needed. Your child does not need to know how to read. They can follow the pictures while you read the text. The map of 128 situations is available in two volumes, along with a 5-page pilot to download and print in cartoon or 3D style.</p>
+</div></section>
+
+<section id="explicado"><div class="wrap">
+  <span class="chip">What you gain</span>
+  <h2>Talk about it before the hard moment comes</h2>
+  <p class="sub">When anger takes over or a classmate teases your child, there’s no time to teach. There’s time to remember what you’ve already talked about.</p>
+  <div class="grid g2">
+    <div class="card antes"><span class="tag">Today</span><h3>The lesson comes at the worst time</h3><p>Your child yells, pushes, or keeps quiet. You explain afterward, while they’re crying, and nothing sticks.</p></div>
+    <div class="card depois"><span class="tag">With the kit</span><h3>The lesson comes in a calm moment</h3><p>You read a page together on a quiet evening. When the situation comes up, your child has already seen it and has words ready to say.</p></div>
+  </div>
+  <div class="grid g3" style="margin-top:16px">
+    <div class="card"><h3>🗣️ Words for feelings</h3><p>Your child learns to say “I’m angry” instead of showing it with their body.</p></div>
+    <div class="card"><h3>🧭 Steps they can use again</h3><p>The same 5 steps on every page: your child learns the path, not just the rule.</p></div>
+    <div class="card"><h3>🤝 Asking for help without shame</h3><p>Every page shows who can help. Asking for help becomes part of the plan, not a failure.</p></div>
+  </div>
+</div></section>
+
+<section id="dia"><div class="wrap">
+  <span class="chip">Everyday use</span>
+  <h2>How this can change life at home</h2>
+  <p class="sub">Three common moments, before and after reading a page together.</p>
+  <div class="grid g3">
+    <div class="card"><h3>🧱 A sibling knocks down the tower</h3><p><b>Today:</b> yelling, pushing, punishment.</p><p><b>With page 9:</b> your child stops, breathes, and says, “I’m angry. I liked that tower.” If the feeling doesn’t pass, they call you.</p></div>
+    <div class="card"><h3>🐴 Their favorite toy breaks</h3><p><b>Today:</b> endless crying and the feeling that everything is ruined.</p><p><b>With page 33:</b> your child gathers the pieces, asks for help fixing the toy, and learns that many things can be repaired.</p></div>
+    <div class="card"><h3>🪑 A classmate kicks their chair</h3><p><b>Today:</b> they kick back or put up with it for weeks.</p><p><b>With page 97:</b> they use a calm, firm voice, tell the teacher, and tell you at home if it continues.</p></div>
+  </div>
+  <div class="grid g4" style="margin-top:16px">
+    <div class="card"><span class="big">10</span><p>minutes a night: one page, two questions.</p></div>
+    <div class="card"><span class="big">1</span><p>one situation at a time. No marathon.</p></div>
+    <div class="card"><span class="big">0</span><p>apps or videos: print the page or show it on a tablet, and that's it.</p></div>
+    <div class="card"><span class="big">2</span><p>questions at the end of each page to start a conversation.</p></div>
+  </div>
+</div></section>
+
+<!-- VIDEO: add the project's explicavideo when published -->
+
+<section id="como"><div class="wrap">
+  <span class="chip">How it works</span>
+  <h2>The same 5 steps on every page</h2>
+  <p class="sub">Like a traffic light your child learns once and uses at every crossing.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line)"><img src="../assets/banner-grade-en.jpg" alt="Inside the kit: what changes at home, the 5 steps, both volumes, the pilot, and how to start" loading="lazy" style="width:100%;display:block"></figure>
+  <div class="grid g5">
+    <div class="card passo"><div class="n" style="background:#38bdf8">1</div><h3>Notice</h3><p>What happened and how I feel. I name the feeling.</p></div>
+    <div class="card passo"><div class="n" style="background:#f87171">2</div><h3>Stop</h3><p>I breathe slowly before I react. I step away a little if I need to.</p></div>
+    <div class="card passo"><div class="n" style="background:#a78bfa">3</div><h3>Think</h3><p>One choice that makes things worse and one that helps.</p></div>
+    <div class="card passo"><div class="n" style="background:#34d399">4</div><h3>Act</h3><p>I choose what helps and use words I’m ready to say.</p></div>
+    <div class="card passo"><div class="n" style="background:#fb923c">5</div><h3>Ask for help</h3><p>When I can’t handle it alone, I find an adult. That takes strength.</p></div>
+  </div>
+  <div class="grid g2" style="margin-top:22px">
+    <div class="card"><h3>📘 Volume 1 · What I feel</h3><p>A 6-panel comic, one panel for each step, plus a happy ending. Anger, fear, frustration, surprises at home, school, changes, and doctor visits. Made for younger children: little text, lots of pictures.</p></div>
+    <div class="card"><h3>📗 Volume 2 · Getting along and staying safe</h3><p>A scene, what is happening, what <b>doesn’t help</b> and what to <b>try saying</b>, who can help, and a family conversation. Friendship, exclusion, teasing, blame, threats, and the internet.</p></div>
+  </div>
+  <div class="aviso"><b>What the kit does not promise:</b> It isn’t therapy and won’t solve everything on its own. It opens a conversation and gives your child a plan to remember. Volume 2 has one firm rule: never teach retaliation or mockery; safety comes before any object; always involve an adult when there is force, a threat, a group, or repeated behavior.</div>
+</div></section>
+
+<section id="quem"><div class="wrap">
+  <span class="chip">Who it’s for</span>
+  <h2>Who uses it and what they get</h2>
+  <p class="sub">The illustrations below are from the pilot.</p>
+  <div class="grid g3">
+    <div class="card"><img class="quem-img" src="../assets/quem-pais.jpg" alt="A mother hugging her son on the living room rug" loading="lazy"><h3>👨‍👩‍👧 Parents</h3><p>One conversation each night about what may happen at school or at home, with words ready to use.</p></div>
+    <div class="card"><img class="quem-img" src="../assets/quem-escola.jpg" alt="A teacher crouches down to listen to a student at their desk" loading="lazy"><h3>🏫 Teachers</h3><p>A page to display during a class conversation about getting along and bullying, with questions at the end for the group.</p></div>
+    <div class="card"><img class="quem-img" src="../assets/quem-cuidadores.jpg" alt="A mother and daughter glue a wooden horse together" loading="lazy"><h3>🧸 Grandparents and caregivers</h3><p>A simple way to talk about feelings without lecturing: the page handles the hard part, and you just read it together.</p></div>
+  </div>
+</div></section>
+
+<section id="mapa"><div class="wrap">
+  <span class="chip">The map</span>
+  <h2>128 situations in two volumes</h2>
+  <p class="sub">8 chapters per volume, 8 situations per chapter. Each has an age range: P (3 to 6), M (7 to 10), G (11 to 13). Open a chapter to see the list.</p>
+
+  <div class="vol"><h3>📘 Volume 1 · What I feel</h3><span class="mut">situations 1 to 64</span></div>
+  <details><summary>Ch. 1 · What is this feeling?</summary><ol start="1"><li>What is this feeling?</li><li>Where a feeling shows up in my body</li><li>A small feeling or a big one?</li><li>I can feel two things at once</li><li>Other people feel things differently than I do</li><li>When I don’t know what I’m feeling</li><li>Putting my feelings into words</li><li>All feelings are okay; not all actions are okay</li></ol></details>
+  <details><summary>Ch. 2 · When feelings grow</summary><ol start="9"><li>When I feel angry ✅ pilot</li><li>When I feel frustrated</li><li>When I feel scared</li><li>When I feel worried</li><li>When I feel sad and don’t know why</li><li>When I feel embarrassed</li><li>When I feel jealous of my sibling</li><li>When I envy a friend</li></ol></details>
+  <details><summary>Ch. 3 · Finding my calm again</summary><ol start="17"><li>Breathe slowly (balloon breathing)</li><li>Count to 10 and step away a little</li><li>My calm-down corner</li><li>My body can help me calm down</li><li>A small problem or a big problem? ✅ pilot</li><li>Waiting for my turn</li><li>Waiting for something I really want</li><li>Stopping when my body feels too wound up</li></ol></details>
+  <details><summary>Ch. 4 · Things don’t always go my way</summary><ol start="25"><li>When I lose a game</li><li>When I hear “no”</li><li>When plans change at the last minute</li><li>When I make a mistake</li><li>When I can’t do it on the first try</li><li>When I get a low grade</li><li>When my drawing doesn’t look the way I imagined</li><li>When it was my fault and I need to say so</li></ol></details>
+  <details><summary>Ch. 5 · Things go wrong at home</summary><ol start="33"><li>When my favorite toy breaks ✅ pilot</li><li>When rain ruins our outing</li><li>When my sibling touches my things</li><li>When thunder scares me</li><li>When our visitors leave</li><li>When the food isn’t something I like</li><li>When I have to turn off the screen</li><li>When I wake up from a bad dream</li></ol></details>
+  <details><summary>Ch. 6 · In the classroom</summary><ol start="41"><li>When class feels boring</li><li>When I finish before everyone else</li><li>When I don’t understand the lesson</li><li>When I’m afraid to ask</li><li>When homework feels too hard</li><li>Before a test</li><li>Giving a presentation in front of the class</li><li>When I get distracted and miss the lesson</li></ol></details>
+  <details><summary>Ch. 7 · Changes and new places</summary><ol start="49"><li>My first day at a new school</li><li>When we move to a new home</li><li>When a new baby arrives</li><li>Staying with someone else when my parents go out</li><li>A crowded, noisy place</li><li>Traveling and sleeping away from home</li><li>When I have two homes</li><li>When a pet dies</li></ol></details>
+  <details><summary>Ch. 8 · Health and my body</summary><ol start="57"><li>Going to the doctor</li><li>Getting a vaccine</li><li>Going to the dentist</li><li>Medicine that tastes bad</li><li>Being sick and unable to play</li><li>Getting a haircut</li><li>Going to bed on time</li><li>When someone in my family is sick</li></ol></details>
+
+  <div class="vol"><h3>📗 Volume 2 · Getting along and staying safe</h3><span class="mut">situations 65 to 128</span></div>
+  <details><summary>Ch. 1 · Making and keeping friends</summary><ol start="65"><li>Joining a game that has already started</li><li>When we want to play different things</li><li>Sharing a toy</li><li>When my friend plays with someone else</li><li>Giving a real apology</li><li>When my friend apologizes to me</li><li>A true friend × a friend who only uses me</li><li>When a friend tells my secret</li></ol></details>
+  <details><summary>Ch. 2 · When I’m left out</summary><ol start="73"><li>“You can’t play with us”</li><li>When no one sits with me at recess</li><li>No one picks me for the team</li><li>I wasn’t invited to the party</li><li>The group agreed not to talk to me</li><li>I was left out of the class group chat</li><li>When I’m the new kid</li><li>When I leave someone out</li></ol></details>
+  <details><summary>Ch. 3 · Laughter that hurts</summary><ol start="81"><li>When people laugh at me</li><li>A nickname I don’t like</li><li>They make fun of my clothes, hair, or body</li><li>They imitate the way I talk</li><li>Joking or teasing?</li><li>When someone says I’m stupid</li><li>When it happens every day (that’s bullying)</li><li>Standing up for myself without insulting anyone</li></ol></details>
+  <details><summary>Ch. 4 · When I get blamed</summary><ol start="89"><li>They say I took something I didn’t take</li><li>They want me to admit to something I didn’t do ✅ pilot</li><li>Someone spreads a lie about me</li><li>The teacher believes the other person</li><li>A classmate wants to copy my test</li><li>I saw who did it and I’m afraid to tell</li><li>Telling an adult × tattling</li><li>When it really was my fault</li></ol></details>
+  <details><summary>Ch. 5 · Force, threats, and fear</summary><ol start="97"><li>Someone behind me won’t stop bothering me ✅ pilot</li><li>When someone won’t let me pass</li><li>Someone takes my lunch or school supplies</li><li>Someone threatens to hit me</li><li>A group surrounds me</li><li>Someone dares me to fight</li><li>Someone hurts me and says, “I didn’t mean to”</li><li>My body is worth more than any object</li></ol></details>
+  <details><summary>Ch. 6 · My body belongs to me (released only after specialist review)</summary><ol start="105"><li>I can say “no” to a hug or a kiss</li><li>Body parts that are mine alone</li><li>A good secret × a bad secret</li><li>When someone asks me to do something strange</li><li>When someone makes me uncomfortable</li><li>Adults I trust</li><li>Getting lost in a crowded place</li><li>When a stranger starts talking to me</li></ol></details>
+  <details><summary>Ch. 7 · On my phone and online</summary><ol start="113"><li>People say mean things about me in a group chat</li><li>Someone posts my photo without asking</li><li>A stranger messages me in a game</li><li>Someone asks for my photo or password</li><li>A dangerous video challenge</li><li>I see something scary on a screen</li><li>Screenshot, block, and tell an adult</li><li>Before I post: how would I feel if it were me?</li></ol></details>
+  <details><summary>Ch. 8 · When I see it happen to someone else</summary><ol start="121"><li>I see someone being teased</li><li>Everyone laughs, but I don’t think it’s funny</li><li>Staying beside someone who is alone</li><li>Telling an adult without putting myself at risk</li><li>My friend is the one bullying someone</li><li>I bullied someone and want to make it right</li><li>A classmate who acts differently</li><li>Making school a better place</li></ol></details>
+</div></section>
+
+<section id="comecar"><div class="wrap">
+  <span class="chip">How to start</span>
+  <h2>Tonight, with one page</h2>
+  <p class="sub">No installation needed. Just the pilot PDF.</p>
+  <div class="step"><div class="b">1</div><div><h3>Download the pilot in the style your child likes</h3><p>The same 5 pages in A4 PDF, with two illustration styles. The cartoon version uses less printer ink.</p>
+    <div class="cta" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px"><a class="btn" href="../assets/conversa-em-casa-piloto-desenho.pdf" download>✏️ Download cartoon version (1,7 MB) (in Portuguese)</a><a class="btn ghost" href="../assets/conversa-em-casa-piloto-3d.pdf" download>🎬 Download 3D version (1,6 MB) (in Portuguese)</a></div></div></div>
+  <div class="step"><div class="b">2</div><div><h3>Choose a situation that has already happened</h3><p>Start with something familiar: if the siblings fought this week, try page 9. Print it or show it on a tablet.</p></div></div>
+  <div class="step"><div class="b">3</div><div><h3>Read together and ask the 2 questions</h3><p>Your child looks at each panel while you read the caption. At the end, ask the “Family Conversation” questions. Take your time. It isn’t a test, and any answer is okay.</p></div></div>
+  <details class="card" style="margin-top:10px"><summary>🤖 For AI users (optional): ask for a page about your child's situation</summary>
+    <p>If you don't use an AI assistant, skip this part: the pilot pages are enough. Claude Code and Codex are AI assistants that read the kit's files (the map and the pages) and write a new page in the same format.</p>
+    
+    <h3>💬 Want a page about something your child is going through?</h3>
+    <p>If you use Claude Code or Codex, paste the prompt below. The AI reads the kit, writes a new page in the same format, and shows you the text before creating any images.</p>
+    <div class="pedido" id="pedido">Read the github.com/inematds/kit-socioemocional repository, especially MAPA.md and the piloto/roteiro.json file.
+My child is [AGE] years old and is going through this: [DESCRIBE THE SITUATION IN 2 OR 3 SENTENCES].
+Write a new page in the same format as the kit (Volume 1 for feelings or unexpected events; Volume 2 for getting along), with the 5 steps, a ready-to-use phrase for the child, who can help, and two questions for us to discuss.
+Rules: no retaliation or mockery, use language that fits the child’s age, and show me only the text. Don’t generate images or change files until I say yes.</div>
+    <button class="btn" id="copiar">Copy the prompt</button>
+    <p style="margin-top:12px">Want to generate the illustrations too? The technical steps are in the project’s <a href="https://github.com/inematds/kit-socioemocional/blob/main/README.en.md#technical-setup" target="_blank" rel="noopener">English README</a>.</p>
+  </details>
+</div></section>
+
+<section id="base" class="base"><div class="wrap">
+  <span class="chip">The background</span>
+  <h2>Existing methods, adapted for home</h2>
+  <p class="sub">The kit doesn’t invent the teaching approach. It brings familiar ideas together in an illustrated, free format.</p>
+  <div class="grid g3">
+    <div class="card"><h3>📖 Social Stories</h3><p>Created by Carol Gray in 1993: short first-person stories that show a situation before it happens. They began as a tool for autistic children and are now used with all kinds of children.</p></div>
+    <div class="card"><h3>🌡️ RULER (Yale)</h3><p>Recognize, understand, label, express, and regulate emotions. That’s where the idea of naming feelings and measuring how big they are comes from. <a href="https://edtechbooks.org/docx/7202" target="_blank" rel="noopener">About the method</a></p></div>
+    <div class="card"><h3>🚦 The Zones of Regulation</h3><p>Emotional states shown as colors, each with its own set of strategies, and the question “small problem or big problem?” <a href="https://zonesofregulation.com/free-downloads/" target="_blank" rel="noopener">Free materials</a></p></div>
+    <div class="card"><h3>👀 I Notice, I Feel, I Can</h3><p>Sesame Workshop’s 3-step plan for big feelings. <a href="https://sesameworkshop.org/resources/i-notice-i-feel-i-can-2/" target="_blank" rel="noopener">I Notice, I Feel, I Can</a></p></div>
+    <div class="card"><h3>🛡️ Personal safety</h3><p>Use a firm voice, create distance, and find a trusted adult, based on Kidpower’s approach. <a href="https://www.mprj.mp.br/documents/20184/8434137/apresentacao_juliana_schweidzon_machado_kidpower_internacional_parte_1.pdf" target="_blank" rel="noopener">MPRJ presentation (in Portuguese)</a></p></div>
+    <div class="card"><h3>⚖️ Law 13,185/2015</h3><p>Brazilian law against bullying. It calls for prevention in schools. Official material: <a href="https://www.gov.br/mec/pt-br/escola-que-protege/bullying-e-convivencia-escolar-_-entendendo.pdf" target="_blank" rel="noopener">MEC, Bullying and School Relationships (in Portuguese)</a>.</p></div>
+  </div>
+  <div class="aviso"><b>In all honesty:</b> research on Social Stories has mixed results. They work better for reducing a difficult behavior than for teaching a new skill (<a href="https://link.springer.com/article/10.1007/s40489-020-00235-6" target="_blank" rel="noopener">2020 review</a>). That’s why the kit doesn’t promise results. It opens a conversation. If your child is struggling a lot or the situation keeps happening, talk to the school and a professional.</div>
+</div></section>
+
+<section id="prova"><div class="wrap">
+  <span class="chip">The pilot</span>
+  <h2>5 pages are ready in two styles for you to choose from</h2>
+  <p class="sub">Three from Volume 1 and two from Volume 2, with the same text. Show your child both styles and let them choose. Click to see a larger image. (The pilot pages are in Portuguese.)</p>
+  <div class="vol"><h3>✏️ Cartoon style</h3><span class="mut">children’s book line art, white background, uses little ink</span></div>
+  <div class="pags">
+    <figure><a href="../assets/pagina-2d-009.jpg" target="_blank"><img src="../assets/pagina-2d-009.jpg" alt="Page 9: When I feel angry (cartoon)" loading="lazy"></a><figcaption>9 · When I feel angry</figcaption></figure>
+    <figure><a href="../assets/pagina-2d-033.jpg" target="_blank"><img src="../assets/pagina-2d-033.jpg" alt="Page 33: When my favorite toy breaks (cartoon)" loading="lazy"></a><figcaption>33 · When my favorite toy breaks</figcaption></figure>
+    <figure><a href="../assets/pagina-2d-021.jpg" target="_blank"><img src="../assets/pagina-2d-021.jpg" alt="Page 21: A small problem or a big problem? (cartoon)" loading="lazy"></a><figcaption>21 · A small problem or a big problem?</figcaption></figure>
+    <figure><a href="../assets/pagina-2d-097.jpg" target="_blank"><img src="../assets/pagina-2d-097.jpg" alt="Page 97: Someone behind me won’t stop bothering me (cartoon)" loading="lazy"></a><figcaption>97 · Someone behind me won’t stop bothering me</figcaption></figure>
+    <figure><a href="../assets/pagina-2d-090.jpg" target="_blank"><img src="../assets/pagina-2d-090.jpg" alt="Page 90: They want me to admit to something I didn’t do (cartoon)" loading="lazy"></a><figcaption>90 · They want me to admit to something I didn’t do</figcaption></figure>
+  </div>
+  <div class="vol"><h3>🎬 3D style</h3><span class="mut">complete scenes, like an animated movie</span></div>
+  <div class="pags">
+    <figure><a href="../assets/pagina-009.jpg" target="_blank"><img src="../assets/pagina-009.jpg" alt="Page 9: When I feel angry (3D)" loading="lazy"></a><figcaption>9 · When I feel angry</figcaption></figure>
+    <figure><a href="../assets/pagina-033.jpg" target="_blank"><img src="../assets/pagina-033.jpg" alt="Page 33: When my favorite toy breaks (3D)" loading="lazy"><figcaption>33 · When my favorite toy breaks</figcaption></figure>
+    <figure><a href="../assets/pagina-021.jpg" target="_blank"><img src="../assets/pagina-021.jpg" alt="Page 21: A small problem or a big problem? (3D)" loading="lazy"></a><figcaption>21 · A small problem or a big problem?</figcaption></figure>
+    <figure><a href="../assets/pagina-097.jpg" target="_blank"><img src="../assets/pagina-097.jpg" alt="Page 97: Someone behind me won’t stop bothering me (3D)" loading="lazy"></a><figcaption>97 · Someone behind me won’t stop bothering me</figcaption></figure>
+    <figure><a href="../assets/pagina-090.jpg" target="_blank"><img src="../assets/pagina-090.jpg" alt="Page 90: They want me to admit to something I didn’t do (3D)" loading="lazy"></a><figcaption>90 · They want me to admit to something I didn’t do</figcaption></figure>
+  </div>
+  <div class="grid g4" style="margin-top:22px">
+    <div class="card"><span class="big">44</span><p>illustrations across 10 pages (22 per style), plus character and wooden horse references.</p></div>
+    <div class="card"><span class="big">6 × 3</span><p>illustrations redone: 6 in 3D and 3 in cartoon style (a repeated character, a copied reference sheet, and switched roles).</p></div>
+    <div class="card"><span class="big">0</span><p>letters inside the images: text is added on top, always correct and easy to translate.</p></div>
+    <div class="card"><span class="big">4</span><p>regular characters: Leo, Bia, the mother, and the teacher.</p></div>
+  </div>
+  <div class="aviso"><b>What still needs work:</b> characters don’t always look exactly the same from panel to panel (in 3D, Bia’s headband disappeared in one panel; in both styles, an object changed size until it got its own reference image). For the full kit, each recurring character and object will have a reference image.</div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <span class="chip">Questions</span>
+  <h2>Common questions</h2>
+  <div class="grid g2" style="margin-top:18px">
+    <div class="card"><h3>Does my child need to know how to read?</h3><p>No. They follow the pictures while you read. Older children can read it themselves and share what they think.</p></div>
+    <div class="card"><h3>Does it cost anything?</h3><p>No. The kit is free, like all the content on inema.club.</p></div>
+    <div class="card"><h3>Does it replace a psychologist or the school?</h3><p>No. It’s a tool for talking at home. Ongoing bullying, serious fear, or a change in behavior are reasons to talk to the school and a professional.</p></div>
+    <div class="card"><h3>Is it for autistic children?</h3><p>Social Stories began as a tool for autistic children, and the visual format can help. Talk with your child’s therapist, who can adapt the page for them.</p></div>
+    <div class="card"><h3>Why doesn’t the kit teach children to fight back?</h3><p>Fighting back often makes things worse and can lead to injury. A firm voice, distance, and a trusted adult can keep your child safe without starting another fight.</p></div>
+    <div class="card"><h3>When will the other pages be ready?</h3><p>The map of 128 situations is ready. Pages will be released chapter by chapter after the pilot. “My body belongs to me” will be released only after specialist review.</p></div>
+  </div>
+  <p class="sub" style="margin-top:28px">What situation do you wish you had talked about with your child sooner? Read the first page today: free on inema.club, right on the internet.</p>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Social Stories</div><div class="pill">PT · EN · ES</div><div class="pill">Free</div>
+    <p style="margin-top:18px">Talk at Home · open pilot, working title ·
+      <a href="https://github.com/inematds/kit-socioemocional">inematds/kit-socioemocional</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='kit-socioemocional-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){}
+    });
+    var c=document.getElementById('copiar');
+    c.addEventListener('click',function(){
+      var txt=document.getElementById('pedido').innerText;
+      navigator.clipboard.writeText(txt).then(function(){ var o=c.textContent; c.textContent='Copied ✓'; setTimeout(function(){c.textContent=o;},1800); });
+    });
+  })();
+</script>
+</body>
+</html>
